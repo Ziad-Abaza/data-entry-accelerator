@@ -34,3 +34,990 @@
 2026-04-17 17:49:23,288 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.369s
 2026-04-17 17:49:23,288 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
 2026-04-17 17:49:23,293 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:57:53,688 | INFO     | __main__ | ============================================================
+2026-04-17 17:57:53,688 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:57:53,689 | INFO     | __main__ | ============================================================
+2026-04-17 17:57:53,936 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:57:53,936 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:57:53,936 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:58:07,033 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:58:07,033 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:58:07,033 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:58:07,050 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:07,193 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.143s
+2026-04-17 17:58:07,194 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:07,199 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 17:58:07,200 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:08,494 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 1.294s
+2026-04-17 17:58:08,494 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:08,499 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:58:08,513 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:08,630 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.117s
+2026-04-17 17:58:08,632 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:08,636 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 17:58:08,637 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:08,888 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.251s
+2026-04-17 17:58:08,888 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:08,893 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:58:08,907 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:09,025 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 17:58:09,051 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.144s
+2026-04-17 17:58:09,053 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:09,058 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.005s
+2026-04-17 17:58:09,059 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:09,233 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.174s
+2026-04-17 17:58:09,233 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:09,238 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:58:09,252 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:09,352 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 17:58:09,378 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.125s
+2026-04-17 17:58:09,378 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:09,383 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 17:58:09,383 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:09,572 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.189s
+2026-04-17 17:58:09,572 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:09,576 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:58:21,902 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:58:21,902 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:58:21,903 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:58:21,921 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:22,071 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.151s
+2026-04-17 17:58:22,072 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:22,077 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 17:58:22,077 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:22,315 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.238s
+2026-04-17 17:58:22,316 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:22,321 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:58:22,335 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:22,458 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.124s
+2026-04-17 17:58:22,461 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:22,465 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 17:58:22,465 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:22,711 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.246s
+2026-04-17 17:58:22,712 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:22,716 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 17:58:22,730 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:22,843 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 17:58:22,865 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.135s
+2026-04-17 17:58:22,867 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:22,871 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.004s
+2026-04-17 17:58:22,871 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:23,039 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.167s
+2026-04-17 17:58:23,039 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:23,044 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:58:23,058 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:58:23,169 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 17:58:23,194 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.136s
+2026-04-17 17:58:23,196 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:58:23,200 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 17:58:23,200 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:58:23,383 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.182s
+2026-04-17 17:58:23,383 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:58:23,388 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:59:04,989 | INFO     | __main__ | ============================================================
+2026-04-17 17:59:04,989 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:59:04,989 | INFO     | __main__ | ============================================================
+2026-04-17 17:59:05,253 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:59:05,253 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:59:05,255 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:59:15,113 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:59:15,115 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:59:15,115 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:59:15,133 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:59:15,272 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.139s
+2026-04-17 17:59:15,273 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:59:15,277 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 17:59:15,278 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:59:15,558 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.280s
+2026-04-17 17:59:15,558 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:59:15,562 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 17:59:15,577 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:59:15,698 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.121s
+2026-04-17 17:59:15,699 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:59:15,703 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 17:59:15,703 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:59:15,939 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.236s
+2026-04-17 17:59:15,939 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:59:15,946 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.007s
+2026-04-17 17:59:15,961 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:59:16,066 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 17:59:16,088 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.127s
+2026-04-17 17:59:16,089 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:59:16,093 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 17:59:16,093 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:59:16,278 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.185s
+2026-04-17 17:59:16,279 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:59:16,283 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:01:09,351 | INFO     | __main__ | ============================================================
+2026-04-17 18:01:09,351 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:01:09,352 | INFO     | __main__ | ============================================================
+2026-04-17 18:01:09,609 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:01:09,609 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:01:09,609 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:01:22,857 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:01:22,857 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:01:22,857 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:01:22,874 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:01:23,018 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.144s
+2026-04-17 18:01:23,019 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:23,023 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:01:23,024 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:23,328 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.304s
+2026-04-17 18:01:23,328 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:23,330 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.002s
+2026-04-17 18:01:23,354 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:01:23,468 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.114s
+2026-04-17 18:01:23,469 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:23,473 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 18:01:23,473 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:23,713 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.240s
+2026-04-17 18:01:23,713 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:23,718 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:01:23,742 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:01:23,859 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:01:23,885 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.144s
+2026-04-17 18:01:23,887 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:23,893 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.005s
+2026-04-17 18:01:23,893 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:24,074 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.181s
+2026-04-17 18:01:24,074 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:24,077 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:01:24,102 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:01:24,207 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:01:24,233 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.131s
+2026-04-17 18:01:24,235 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:24,239 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.003s
+2026-04-17 18:01:24,239 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:24,425 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.187s
+2026-04-17 18:01:24,425 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:24,430 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:01:24,451 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 780x1040
+2026-04-17 18:01:24,577 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.126s
+2026-04-17 18:01:24,580 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:24,584 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 20 ambiguous, 2 empty in 0.004s
+2026-04-17 18:01:24,584 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:24,788 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.204s
+2026-04-17 18:01:24,788 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:24,791 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.003s
+2026-04-17 18:01:24,812 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 780x1040
+2026-04-17 18:01:24,903 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.091s
+2026-04-17 18:01:24,905 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:24,909 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 3 OK, 27 ambiguous, 0 empty in 0.003s
+2026-04-17 18:01:24,910 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:25,119 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.209s
+2026-04-17 18:01:25,120 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:25,123 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:01:37,962 | INFO     | __main__ | ============================================================
+2026-04-17 18:01:37,962 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:01:37,963 | INFO     | __main__ | ============================================================
+2026-04-17 18:01:38,201 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:01:38,202 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:01:38,202 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:01:50,045 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:01:50,046 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:01:50,047 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:01:50,062 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 780x1040
+2026-04-17 18:01:50,162 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.100s
+2026-04-17 18:01:50,164 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:01:50,168 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 3 OK, 27 ambiguous, 0 empty in 0.004s
+2026-04-17 18:01:50,168 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:01:50,402 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.234s
+2026-04-17 18:01:50,402 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:01:50,407 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:02:06,088 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:02:06,088 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:02:06,089 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:02:06,104 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:06,238 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.134s
+2026-04-17 18:02:06,239 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:06,243 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:02:06,243 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:06,487 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.244s
+2026-04-17 18:02:06,488 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:06,491 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:02:06,506 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:06,639 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.133s
+2026-04-17 18:02:06,639 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:06,645 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.006s
+2026-04-17 18:02:06,646 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:06,829 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.184s
+2026-04-17 18:02:06,829 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:06,833 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:02:06,844 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:06,933 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:02:06,948 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.104s
+2026-04-17 18:02:06,950 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:06,953 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.003s
+2026-04-17 18:02:06,953 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:07,105 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.152s
+2026-04-17 18:02:07,105 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:07,108 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.003s
+2026-04-17 18:02:07,124 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:07,248 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:02:07,271 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.147s
+2026-04-17 18:02:07,273 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:07,277 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:02:07,277 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:07,480 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.202s
+2026-04-17 18:02:07,480 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:07,485 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:02:43,228 | INFO     | __main__ | ============================================================
+2026-04-17 18:02:43,228 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:02:43,230 | INFO     | __main__ | ============================================================
+2026-04-17 18:02:43,463 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:02:43,465 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:02:43,465 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:02:51,983 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:02:51,983 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:02:51,984 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:02:51,998 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:52,137 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.139s
+2026-04-17 18:02:52,138 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:52,139 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.001s
+2026-04-17 18:02:52,139 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:52,435 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.296s
+2026-04-17 18:02:52,435 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:52,439 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:02:52,455 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:52,580 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.125s
+2026-04-17 18:02:52,581 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:52,586 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 18:02:52,586 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:52,827 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.241s
+2026-04-17 18:02:52,827 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:52,831 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.003s
+2026-04-17 18:02:52,846 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:52,956 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:02:52,982 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.136s
+2026-04-17 18:02:52,983 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:52,988 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.004s
+2026-04-17 18:02:52,988 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:53,155 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.167s
+2026-04-17 18:02:53,155 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:53,159 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:02:53,172 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:02:53,278 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:02:53,305 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.132s
+2026-04-17 18:02:53,306 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:02:53,311 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 18:02:53,311 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:02:53,499 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.189s
+2026-04-17 18:02:53,499 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:02:53,504 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:03:36,215 | INFO     | __main__ | ============================================================
+2026-04-17 18:03:36,215 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:03:36,215 | INFO     | __main__ | ============================================================
+2026-04-17 18:03:36,456 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:03:36,456 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:03:36,457 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:03:36,510 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=No Image, image=None
+2026-04-17 18:03:36,510 | DEBUG    | app.ui.widgets.image_viewer | Image is None or empty, showing placeholder
+2026-04-17 18:03:45,657 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:03:45,657 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:03:45,658 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:03:45,676 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:03:45,681 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:03:45,683 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:03:45,687 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:03:45,687 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.803, Bottom: 0.832
+2026-04-17 18:03:45,689 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:03:45,803 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:03:45,827 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:03:45,827 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.151s
+2026-04-17 18:03:45,828 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:03:45,833 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 18:03:45,833 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:03:45,833 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:03:45,834 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:03:45,877 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_jw18nt8x_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_jw18nt8x', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:03:46,106 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '6 1
+20
+'
+2026-04-17 18:03:46,106 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '6 1
+20
+' -> '6120'
+2026-04-17 18:03:46,106 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='6120', confidence=0.10, valid=False
+2026-04-17 18:03:46,107 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.274s
+2026-04-17 18:03:46,107 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:03:46,107 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:03:46,107 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:03:46,109 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:03:46,109 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:03:46,110 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:03:46,111 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,111 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:03:46,112 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,112 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:03:46,113 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,113 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.006s
+2026-04-17 18:03:46,129 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:03:46,131 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:03:46,133 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:03:46,139 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:03:46,139 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.843, Bottom: 0.842
+2026-04-17 18:03:46,139 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:03:46,239 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:03:46,263 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:03:46,263 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.135s
+2026-04-17 18:03:46,265 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:03:46,269 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 18:03:46,269 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:03:46,271 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:03:46,271 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:03:46,274 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_8xhqewba_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_8xhqewba', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:03:46,507 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '7
+'
+2026-04-17 18:03:46,507 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '7
+' -> '7'
+2026-04-17 18:03:46,507 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='7', confidence=0.10, valid=False
+2026-04-17 18:03:46,508 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.239s
+2026-04-17 18:03:46,508 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:03:46,509 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:03:46,509 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:03:46,509 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:03:46,509 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:03:46,509 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:03:46,511 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,511 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:03:46,512 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,512 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:03:46,513 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,513 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:03:46,531 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:03:46,532 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:03:46,535 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:03:46,543 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:03:46,543 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.826, Bottom: 0.821
+2026-04-17 18:03:46,543 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:03:46,655 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:03:46,679 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:03:46,680 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.149s
+2026-04-17 18:03:46,681 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:03:46,686 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.005s
+2026-04-17 18:03:46,687 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:03:46,687 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:03:46,688 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:03:46,689 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_m__6y9n0_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_m__6y9n0', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:03:46,855 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:03:46,855 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:03:46,855 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.168s
+2026-04-17 18:03:46,855 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:03:46,855 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:03:46,856 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:03:46,856 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:03:46,857 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:03:46,857 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:03:46,858 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,858 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:03:46,858 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,858 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:03:46,861 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:46,861 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.006s
+2026-04-17 18:03:46,877 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:03:46,877 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:03:46,881 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:03:46,889 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:03:46,902 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.837, Bottom: 0.816
+2026-04-17 18:03:46,902 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:03:47,008 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:03:47,034 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:03:47,034 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.158s
+2026-04-17 18:03:47,035 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:03:47,040 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 18:03:47,040 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:03:47,040 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:03:47,040 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:03:47,043 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_ocr5ly4w_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_ocr5ly4w', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:03:47,219 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:03:47,219 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:03:47,219 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.178s
+2026-04-17 18:03:47,219 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:03:47,219 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:03:47,220 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:03:47,220 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:03:47,221 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:03:47,223 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:03:47,223 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:47,223 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:03:47,224 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:47,224 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:03:47,226 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:03:47,227 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.007s
+2026-04-17 18:05:01,891 | INFO     | __main__ | ============================================================
+2026-04-17 18:05:01,891 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:05:01,892 | INFO     | __main__ | ============================================================
+2026-04-17 18:05:02,270 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:05:02,270 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:05:02,270 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:05:02,332 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=No Image, image=None
+2026-04-17 18:05:02,332 | DEBUG    | app.ui.widgets.image_viewer | Image is None or empty, showing placeholder
+2026-04-17 18:05:14,439 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:05:14,442 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:05:14,442 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:05:14,459 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:14,465 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:14,466 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:14,472 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:14,472 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.803, Bottom: 0.832
+2026-04-17 18:05:14,472 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:14,588 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:05:14,610 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:14,611 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.152s
+2026-04-17 18:05:14,612 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:14,616 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:05:14,617 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:14,617 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:14,618 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:14,659 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_tvv58jvz_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_tvv58jvz', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:14,897 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '6 1
+20
+'
+2026-04-17 18:05:14,897 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '6 1
+20
+' -> '6120'
+2026-04-17 18:05:14,897 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='6120', confidence=0.10, valid=False
+2026-04-17 18:05:14,897 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.281s
+2026-04-17 18:05:14,897 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:14,899 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:14,899 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:14,900 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:14,900 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:14,900 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:14,902 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:14,902 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:14,903 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:14,903 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:14,905 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:14,905 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.008s
+2026-04-17 18:05:14,920 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:14,921 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:14,924 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:14,929 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:14,930 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.843, Bottom: 0.842
+2026-04-17 18:05:14,930 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:15,028 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:05:15,051 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:15,051 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.131s
+2026-04-17 18:05:15,053 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:15,057 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 18:05:15,058 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:15,058 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:15,059 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:15,062 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_vfmk4eam_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_vfmk4eam', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:15,305 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '7
+'
+2026-04-17 18:05:15,305 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '7
+' -> '7'
+2026-04-17 18:05:15,305 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='7', confidence=0.10, valid=False
+2026-04-17 18:05:15,305 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.248s
+2026-04-17 18:05:15,305 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:15,306 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:15,306 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:15,306 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:15,307 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:15,308 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:15,308 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:15,308 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:15,308 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:15,308 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:15,311 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:15,311 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.006s
+2026-04-17 18:05:15,326 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:15,326 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:15,329 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:15,334 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:15,334 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.826, Bottom: 0.821
+2026-04-17 18:05:15,334 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:15,444 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:05:15,473 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:15,473 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.147s
+2026-04-17 18:05:15,475 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:15,478 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.004s
+2026-04-17 18:05:15,480 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:15,480 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:15,480 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:15,483 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_nv9ohg6c_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_nv9ohg6c', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:15,650 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:05:15,650 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:05:15,650 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.170s
+2026-04-17 18:05:15,651 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:15,651 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:15,652 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:15,652 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:15,653 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:15,653 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:15,653 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:15,653 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:15,655 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:15,655 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:15,656 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:15,656 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:05:15,672 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:15,672 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:15,675 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:15,681 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:15,682 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.837, Bottom: 0.816
+2026-04-17 18:05:15,682 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:15,785 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:05:15,812 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:15,813 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.141s
+2026-04-17 18:05:15,814 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:15,818 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 18:05:15,819 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:15,819 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:15,819 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:15,822 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_v4e5of_x_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_v4e5of_x', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:16,003 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:05:16,003 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:05:16,003 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.184s
+2026-04-17 18:05:16,003 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:16,005 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:16,005 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:16,006 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:16,006 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:16,006 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:16,007 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:16,007 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:16,009 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:16,009 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:16,009 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:16,009 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:05:37,473 | INFO     | __main__ | ============================================================
+2026-04-17 18:05:37,474 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:05:37,475 | INFO     | __main__ | ============================================================
+2026-04-17 18:05:37,729 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:05:37,730 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:05:37,730 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:05:37,785 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=No Image, image=None
+2026-04-17 18:05:37,785 | DEBUG    | app.ui.widgets.image_viewer | Image is None or empty, showing placeholder
+2026-04-17 18:05:50,478 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:05:50,478 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:05:50,478 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:05:50,493 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:50,498 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:50,501 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:50,506 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:50,506 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.803, Bottom: 0.832
+2026-04-17 18:05:50,506 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:50,613 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:05:50,631 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:50,631 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.138s
+2026-04-17 18:05:50,633 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:50,636 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:05:50,637 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:50,637 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:50,638 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:50,677 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_xm0fau66_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_xm0fau66', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:50,911 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '6 1
+20
+'
+2026-04-17 18:05:50,913 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '6 1
+20
+' -> '6120'
+2026-04-17 18:05:50,913 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='6120', confidence=0.10, valid=False
+2026-04-17 18:05:50,913 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.277s
+2026-04-17 18:05:50,913 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:50,913 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:50,914 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:50,915 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:50,915 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:50,915 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:50,917 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:50,917 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:50,918 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:50,918 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:50,919 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:50,919 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:05:50,919 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\images\IMG-20260414-WA0062.jpg, status=completed
+2026-04-17 18:05:50,919 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:05:50,933 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:50,934 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:50,937 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:50,943 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:50,943 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.843, Bottom: 0.842
+2026-04-17 18:05:50,943 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:51,053 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:05:51,075 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:51,075 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.142s
+2026-04-17 18:05:51,077 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:51,081 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 18:05:51,081 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:51,081 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:51,082 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:51,085 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_76zmapan_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_76zmapan', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:51,322 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '7
+'
+2026-04-17 18:05:51,322 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '7
+' -> '7'
+2026-04-17 18:05:51,322 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='7', confidence=0.10, valid=False
+2026-04-17 18:05:51,322 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.241s
+2026-04-17 18:05:51,324 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:51,324 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:51,324 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:51,324 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:51,325 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:51,325 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:51,327 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:51,327 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:51,328 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:51,328 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:51,329 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:51,329 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.006s
+2026-04-17 18:05:51,330 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\images\IMG-20260414-WA0063.jpg, status=completed
+2026-04-17 18:05:51,331 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:05:51,346 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:51,347 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:51,349 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:51,355 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:51,355 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.826, Bottom: 0.821
+2026-04-17 18:05:51,355 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:51,468 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:05:51,493 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:51,494 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.148s
+2026-04-17 18:05:51,495 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:51,499 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.004s
+2026-04-17 18:05:51,500 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:51,500 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:51,502 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:51,503 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_gvrulszk_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_gvrulszk', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:51,667 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:05:51,668 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:05:51,668 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.167s
+2026-04-17 18:05:51,668 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:51,668 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:51,669 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:51,669 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:51,669 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:51,669 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:51,671 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:51,671 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:51,672 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:51,672 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:51,673 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:51,673 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:05:51,674 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\images\IMG-20260414-WA0064.jpg, status=completed
+2026-04-17 18:05:51,674 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:05:51,690 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:05:51,690 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:05:51,692 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:51,698 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:51,698 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.837, Bottom: 0.816
+2026-04-17 18:05:51,698 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:51,798 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:05:51,822 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:05:51,822 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.132s
+2026-04-17 18:05:51,824 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:51,828 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.003s
+2026-04-17 18:05:51,829 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:51,829 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:51,829 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:51,832 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_jse29pff_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_jse29pff', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:52,031 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:05:52,032 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:05:52,032 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.204s
+2026-04-17 18:05:52,033 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:52,033 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:52,033 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:52,033 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:52,033 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:52,033 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:52,035 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,035 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:52,037 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,037 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:52,037 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,037 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:05:52,038 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\images\IMG-20260414-WA0065.jpg, status=completed
+2026-04-17 18:05:52,038 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:05:52,050 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 780x1040
+2026-04-17 18:05:52,050 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1040, 780)
+2026-04-17 18:05:52,050 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:52,054 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:52,055 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.796, Bottom: 0.802
+2026-04-17 18:05:52,055 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:52,150 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:05:52,169 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 780x1040 -> 1500x2000
+2026-04-17 18:05:52,171 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.121s
+2026-04-17 18:05:52,171 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:52,175 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 20 ambiguous, 2 empty in 0.004s
+2026-04-17 18:05:52,177 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:52,177 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:52,178 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:52,180 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_z37qgltl_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_z37qgltl', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:52,376 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:05:52,378 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:05:52,378 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.201s
+2026-04-17 18:05:52,378 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:52,378 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:52,379 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:52,379 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:52,380 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:52,380 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:52,381 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,381 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:52,382 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,382 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:52,384 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,384 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.006s
+2026-04-17 18:05:52,384 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\images\IMG-20260414-WA0066.jpg, status=completed
+2026-04-17 18:05:52,385 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:05:52,395 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 780x1040
+2026-04-17 18:05:52,396 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1040, 780)
+2026-04-17 18:05:52,400 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:05:52,406 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:05:52,407 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.848, Bottom: 0.847
+2026-04-17 18:05:52,407 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:05:52,485 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:05:52,509 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 780x1040 -> 1500x2000
+2026-04-17 18:05:52,509 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.114s
+2026-04-17 18:05:52,511 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:05:52,515 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 3 OK, 27 ambiguous, 0 empty in 0.004s
+2026-04-17 18:05:52,516 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:05:52,516 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:05:52,517 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:05:52,520 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_f6lgo2wi_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_f6lgo2wi', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:05:52,713 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:05:52,713 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:05:52,713 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.197s
+2026-04-17 18:05:52,713 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:05:52,713 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:05:52,715 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:05:52,715 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:05:52,715 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:05:52,715 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:05:52,717 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,717 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:05:52,718 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,718 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:05:52,719 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:05:52,719 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.006s
+2026-04-17 18:05:52,719 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\images\IMG-20260414-WA0067.jpg, status=completed
+2026-04-17 18:05:52,720 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:06:20,321 | INFO     | __main__ | ============================================================
+2026-04-17 18:06:20,321 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:06:20,321 | INFO     | __main__ | ============================================================
+2026-04-17 18:06:20,563 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:06:20,563 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:06:20,563 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:06:20,625 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=No Image, image=None
+2026-04-17 18:06:20,625 | DEBUG    | app.ui.widgets.image_viewer | Image is None or empty, showing placeholder
+2026-04-17 18:07:11,875 | INFO     | __main__ | ============================================================
+2026-04-17 18:07:11,875 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:07:11,875 | INFO     | __main__ | ============================================================
+2026-04-17 18:07:12,113 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:07:12,113 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:07:12,115 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:07:12,171 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=No Image, image=None
+2026-04-17 18:07:12,172 | DEBUG    | app.ui.widgets.image_viewer | Image is None or empty, showing placeholder
+2026-04-17 18:08:08,289 | INFO     | __main__ | ============================================================
+2026-04-17 18:08:08,289 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:08:08,289 | INFO     | __main__ | ============================================================
+2026-04-17 18:08:08,518 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:08:08,518 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:08:08,518 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:08:08,571 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=No Image, image=None
+2026-04-17 18:08:08,572 | DEBUG    | app.ui.widgets.image_viewer | Image is None or empty, showing placeholder
+2026-04-17 18:08:18,228 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:08:18,228 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:08:18,228 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:08:18,245 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:08:18,250 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:08:18,252 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:08:18,256 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:08:18,256 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.803, Bottom: 0.832
+2026-04-17 18:08:18,256 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:08:18,375 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:08:18,396 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:08:18,397 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.151s
+2026-04-17 18:08:18,397 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:08:18,402 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:08:18,402 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:08:18,402 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:08:18,403 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:08:18,445 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_ow5qnwrh_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_ow5qnwrh', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:08:18,689 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '6 1
+20
+'
+2026-04-17 18:08:18,689 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '6 1
+20
+' -> '6120'
+2026-04-17 18:08:18,689 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='6120', confidence=0.10, valid=False
+2026-04-17 18:08:18,689 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.287s
+2026-04-17 18:08:18,689 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:08:18,690 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:08:18,690 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:08:18,690 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:08:18,690 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:08:18,690 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:08:18,693 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:18,694 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:08:18,694 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:18,695 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:08:18,696 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:18,696 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.008s
+2026-04-17 18:08:18,696 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\IMG-20260414-WA0062.jpg, status=completed
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | Task has record, current_index=-1
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | Loading record at index 0
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | _load_current_record called: index=0, tasks=3
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | Task status: completed, has_record: True
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | Calling _display_current_field
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | Field: student_name, Crops type: <class 'dict'>
+2026-04-17 18:08:18,697 | DEBUG    | app.ui.main_window | Available keys: ['student_name', 'academic_id', 'q2', 'q3', 'q4']
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.main_window | Got crop for student_name: <class 'app.models.CropRegion'>
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.main_window | Extracted image: <class 'numpy.ndarray'>, shape=(72, 400)
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=Student Name, image=shape=(72, 400)
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.widgets.image_viewer | Converting image: shape=(72, 400), dtype=uint8
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.widgets.image_viewer | QImage created: 400x72
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.widgets.image_viewer | QPixmap created: 400x72
+2026-04-17 18:08:18,698 | DEBUG    | app.ui.widgets.image_viewer | Got pixmap: 400x72
+2026-04-17 18:08:18,700 | DEBUG    | app.ui.widgets.image_viewer | Set pixmap to label: PySide6.QtCore.QSize(400, 72)
+2026-04-17 18:08:18,711 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:08:18,711 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:08:18,711 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:08:18,717 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:08:18,717 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.843, Bottom: 0.842
+2026-04-17 18:08:18,717 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:08:18,821 | DEBUG    | app.core.preprocessing.preprocessor | No significant skew detected: 0.00°
+2026-04-17 18:08:18,841 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:08:18,841 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.130s
+2026-04-17 18:08:18,843 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:08:18,847 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.004s
+2026-04-17 18:08:18,847 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:08:18,847 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:08:18,848 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:08:18,851 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_zngb1it0_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_zngb1it0', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:08:19,121 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: '7
+'
+2026-04-17 18:08:19,122 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '7
+' -> '7'
+2026-04-17 18:08:19,122 | DEBUG    | app.core.ocr.ocr_engine | Validation: text='7', confidence=0.10, valid=False
+2026-04-17 18:08:19,122 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.275s
+2026-04-17 18:08:19,122 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:08:19,123 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:08:19,123 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:08:19,123 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:08:19,123 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:08:19,123 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:08:19,124 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:19,125 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:08:19,125 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:19,125 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:08:19,127 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:19,127 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:08:19,127 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\IMG-20260414-WA0063.jpg, status=completed
+2026-04-17 18:08:19,128 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:08:19,144 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:08:19,144 | DEBUG    | app.core.preprocessing.preprocessor | Converted to grayscale: (1152, 864)
+2026-04-17 18:08:19,145 | DEBUG    | app.core.preprocessing.preprocessor | Applied Gaussian blur: kernel=5x5
+2026-04-17 18:08:19,150 | DEBUG    | app.core.preprocessing.preprocessor | Applied adaptive threshold: block=11, C=2
+2026-04-17 18:08:19,150 | DEBUG    | app.core.preprocessing.preprocessor | Edge density - Top: 0.826, Bottom: 0.821
+2026-04-17 18:08:19,150 | DEBUG    | app.core.preprocessing.preprocessor | Orientation detected: correct (heuristic)
+2026-04-17 18:08:19,269 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:08:19,293 | DEBUG    | app.core.preprocessing.preprocessor | Resized: 864x1152 -> 1500x2000
+2026-04-17 18:08:19,293 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.150s
+2026-04-17 18:08:19,295 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:08:19,299 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.006s
+2026-04-17 18:08:19,300 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:08:19,300 | DEBUG    | app.core.ocr.ocr_engine | Cropped ID region: (100, 300, 3)
+2026-04-17 18:08:19,300 | DEBUG    | app.core.ocr.ocr_engine | Applied OCR preprocessing
+2026-04-17 18:08:19,303 | DEBUG    | pytesseract | ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_odhjp_1s_input.PNG', 'C:\\Users\\ziad\\AppData\\Local\\Temp\\tess_odhjp_1s', '-l', 'eng', '--psm', '6', '-c', 'tessedit_char_whitelist=0123456789', 'txt']
+2026-04-17 18:08:19,474 | DEBUG    | app.core.ocr.ocr_engine | Raw OCR output: ''
+2026-04-17 18:08:19,474 | DEBUG    | app.core.ocr.ocr_engine | Post-processed: '' -> ''
+2026-04-17 18:08:19,474 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.174s
+2026-04-17 18:08:19,474 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:08:19,474 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 30, 250, 70)': (40, 220, 3)
+2026-04-17 18:08:19,475 | DEBUG    | app.core.cropping.crop_engine | Resized: 220x40 -> 400x72
+2026-04-17 18:08:19,475 | DEBUG    | app.core.cropping.crop_engine | Cropped '(280, 30, 450, 70)': (40, 170, 3)
+2026-04-17 18:08:19,476 | DEBUG    | app.core.cropping.crop_engine | Resized: 170x40 -> 400x94
+2026-04-17 18:08:19,477 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 460, 380, 580)': (120, 350, 3)
+2026-04-17 18:08:19,477 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:19,477 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 610, 380, 730)': (120, 350, 3)
+2026-04-17 18:08:19,478 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:19,480 | DEBUG    | app.core.cropping.crop_engine | Cropped '(30, 760, 380, 880)': (120, 350, 3)
+2026-04-17 18:08:19,480 | DEBUG    | app.core.cropping.crop_engine | Resized: 350x120 -> 400x137
+2026-04-17 18:08:19,480 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:08:19,480 | DEBUG    | app.ui.main_window | Task finished: D:\ziad\Downloads\IMG-20260414-WA0064.jpg, status=completed
+2026-04-17 18:08:19,480 | DEBUG    | app.ui.main_window | Task has record, current_index=0
+2026-04-17 18:08:37,195 | DEBUG    | app.ui.main_window | Field: academic_id, Crops type: <class 'dict'>
+2026-04-17 18:08:37,195 | DEBUG    | app.ui.main_window | Available keys: ['student_name', 'academic_id', 'q2', 'q3', 'q4']
+2026-04-17 18:08:37,196 | DEBUG    | app.ui.main_window | Got crop for academic_id: <class 'app.models.CropRegion'>
+2026-04-17 18:08:37,196 | DEBUG    | app.ui.main_window | Extracted image: <class 'numpy.ndarray'>, shape=(94, 400)
+2026-04-17 18:08:37,196 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=Academic ID, image=shape=(94, 400)
+2026-04-17 18:08:37,196 | DEBUG    | app.ui.widgets.image_viewer | Converting image: shape=(94, 400), dtype=uint8
+2026-04-17 18:08:37,196 | DEBUG    | app.ui.widgets.image_viewer | QImage created: 400x94
+2026-04-17 18:08:37,197 | DEBUG    | app.ui.widgets.image_viewer | QPixmap created: 400x94
+2026-04-17 18:08:37,197 | DEBUG    | app.ui.widgets.image_viewer | Got pixmap: 400x94
+2026-04-17 18:08:37,197 | DEBUG    | app.ui.widgets.image_viewer | Set pixmap to label: PySide6.QtCore.QSize(400, 94)
+2026-04-17 18:08:38,398 | DEBUG    | app.ui.main_window | Field: q2, Crops type: <class 'dict'>
+2026-04-17 18:08:38,398 | DEBUG    | app.ui.main_window | Available keys: ['student_name', 'academic_id', 'q2', 'q3', 'q4']
+2026-04-17 18:08:38,398 | DEBUG    | app.ui.main_window | Got crop for q2: <class 'app.models.CropRegion'>
+2026-04-17 18:08:38,398 | DEBUG    | app.ui.main_window | Extracted image: <class 'numpy.ndarray'>, shape=(137, 400)
+2026-04-17 18:08:38,398 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=Question 2, image=shape=(137, 400)
+2026-04-17 18:08:38,398 | DEBUG    | app.ui.widgets.image_viewer | Converting image: shape=(137, 400), dtype=uint8
+2026-04-17 18:08:38,399 | DEBUG    | app.ui.widgets.image_viewer | QImage created: 400x137
+2026-04-17 18:08:38,399 | DEBUG    | app.ui.widgets.image_viewer | QPixmap created: 400x137
+2026-04-17 18:08:38,400 | DEBUG    | app.ui.widgets.image_viewer | Got pixmap: 400x137
+2026-04-17 18:08:38,400 | DEBUG    | app.ui.widgets.image_viewer | Set pixmap to label: PySide6.QtCore.QSize(400, 137)
+2026-04-17 18:08:38,995 | DEBUG    | app.ui.main_window | Field: q3, Crops type: <class 'dict'>
+2026-04-17 18:08:38,996 | DEBUG    | app.ui.main_window | Available keys: ['student_name', 'academic_id', 'q2', 'q3', 'q4']
+2026-04-17 18:08:38,996 | DEBUG    | app.ui.main_window | Got crop for q3: <class 'app.models.CropRegion'>
+2026-04-17 18:08:38,996 | DEBUG    | app.ui.main_window | Extracted image: <class 'numpy.ndarray'>, shape=(137, 400)
+2026-04-17 18:08:38,996 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=Question 3, image=shape=(137, 400)
+2026-04-17 18:08:38,996 | DEBUG    | app.ui.widgets.image_viewer | Converting image: shape=(137, 400), dtype=uint8
+2026-04-17 18:08:38,996 | DEBUG    | app.ui.widgets.image_viewer | QImage created: 400x137
+2026-04-17 18:08:38,997 | DEBUG    | app.ui.widgets.image_viewer | QPixmap created: 400x137
+2026-04-17 18:08:38,997 | DEBUG    | app.ui.widgets.image_viewer | Got pixmap: 400x137
+2026-04-17 18:08:38,997 | DEBUG    | app.ui.widgets.image_viewer | Set pixmap to label: PySide6.QtCore.QSize(400, 137)
+2026-04-17 18:08:40,428 | DEBUG    | app.ui.main_window | Field: q4, Crops type: <class 'dict'>
+2026-04-17 18:08:40,429 | DEBUG    | app.ui.main_window | Available keys: ['student_name', 'academic_id', 'q2', 'q3', 'q4']
+2026-04-17 18:08:40,429 | DEBUG    | app.ui.main_window | Got crop for q4: <class 'app.models.CropRegion'>
+2026-04-17 18:08:40,429 | DEBUG    | app.ui.main_window | Extracted image: <class 'numpy.ndarray'>, shape=(137, 400)
+2026-04-17 18:08:40,429 | DEBUG    | app.ui.widgets.image_viewer | set_image called: field=Question 4, image=shape=(137, 400)
+2026-04-17 18:08:40,429 | DEBUG    | app.ui.widgets.image_viewer | Converting image: shape=(137, 400), dtype=uint8
+2026-04-17 18:08:40,430 | DEBUG    | app.ui.widgets.image_viewer | QImage created: 400x137
+2026-04-17 18:08:40,430 | DEBUG    | app.ui.widgets.image_viewer | QPixmap created: 400x137
+2026-04-17 18:08:40,430 | DEBUG    | app.ui.widgets.image_viewer | Got pixmap: 400x137
+2026-04-17 18:08:40,430 | DEBUG    | app.ui.widgets.image_viewer | Set pixmap to label: PySide6.QtCore.QSize(400, 137)
+2026-04-17 18:08:53,854 | INFO     | main | ============================================================
+2026-04-17 18:08:53,854 | INFO     | main | Vision-Accelerated Exam Data Entry System
+2026-04-17 18:08:53,854 | INFO     | main | ============================================================
+2026-04-17 18:08:54,075 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:08:54,075 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:08:54,075 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:09:04,345 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 18:09:04,346 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 18:09:04,346 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 18:09:04,361 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:09:04,505 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.144s
+2026-04-17 18:09:04,506 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:09:04,510 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.004s
+2026-04-17 18:09:04,511 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:09:04,799 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '6120' (confidence: 0.10, valid: False) in 0.289s
+2026-04-17 18:09:04,800 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:09:04,803 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.003s
+2026-04-17 18:09:04,818 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:09:04,934 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.117s
+2026-04-17 18:09:04,935 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:09:04,940 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 8 OK, 18 ambiguous, 4 empty in 0.005s
+2026-04-17 18:09:04,940 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:09:05,189 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '7' (confidence: 0.10, valid: False) in 0.249s
+2026-04-17 18:09:05,189 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:09:05,193 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s
+2026-04-17 18:09:05,207 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:09:05,322 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.01° skew
+2026-04-17 18:09:05,349 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.142s
+2026-04-17 18:09:05,350 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:09:05,355 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 11 OK, 18 ambiguous, 1 empty in 0.004s
+2026-04-17 18:09:05,355 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:09:05,561 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.207s
+2026-04-17 18:09:05,561 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:09:05,566 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
+2026-04-17 18:09:05,580 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 18:09:05,688 | INFO     | app.core.preprocessing.preprocessor | Deskewing: correcting -1.68° skew
+2026-04-17 18:09:05,711 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.131s
+2026-04-17 18:09:05,713 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 18:09:05,716 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.003s
+2026-04-17 18:09:05,717 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 18:09:05,894 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.177s
+2026-04-17 18:09:05,894 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 18:09:05,898 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.004s

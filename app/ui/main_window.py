@@ -10,6 +10,7 @@ Integrates:
 """
 
 import sys
+import logging
 import pandas as pd
 from pathlib import Path
 from typing import Optional, Dict, Any, List
@@ -108,7 +109,21 @@ class ProcessingWorker(QThread):
                 ocr_result = self._ocr_engine.extract_academic_id(processed)
                 
                 # 4. Crop extraction
-                crops = self._crop_engine.extract_all(processed)
+                crops_result = self._crop_engine.extract_all(processed)
+                
+                # Convert CropResult to Dict[str, CropRegion] for ExamRecord
+                from app.models import CropRegion
+                crops_dict = {}
+                for key in ['student_name', 'academic_id', 'q2', 'q3', 'q4']:
+                    crop_image = getattr(crops_result, key, None)
+                    if crop_image is not None:
+                        h, w = crop_image.shape[:2]
+                        crops_dict[key] = CropRegion(
+                            name=key,
+                            image=crop_image,
+                            width=w,
+                            height=h
+                        )
                 
                 # Create exam record
                 record = ExamRecord(
@@ -117,7 +132,7 @@ class ProcessingWorker(QThread):
                     mcq_answers=omr_result.question_results,
                     source_image_path=str(task.path),
                     id_confidence=ocr_result.confidence,
-                    crops=crops.to_dict()
+                    crops=crops_dict
                 )
                 
                 # Determine status based on confidence
@@ -444,7 +459,7 @@ class MainWindow(QMainWindow):
     def _load_images(self, paths: List[Path]) -> None:
         """Load images into the processing queue."""
         self._tasks = [ProcessingTask(path=path) for path in paths]
-        self._current_task_index = 0
+        # Don't set _current_task_index here - it should stay -1 until first task completes
         
         self._status_panel.update_queue(len(self._tasks), 0)
         self._status_bar.showMessage(f"Loaded {len(self._tasks)} images")
@@ -470,6 +485,9 @@ class MainWindow(QMainWindow):
     
     def _on_task_finished(self, task: ProcessingTask) -> None:
         """Handle task completion."""
+        logger = logging.getLogger(__name__)
+        logger.debug(f"Task finished: {task.path}, status={task.status}")
+        
         # Update queue display
         completed = sum(1 for t in self._tasks if t.status == "completed")
         self._status_panel.update_queue(
@@ -478,9 +496,11 @@ class MainWindow(QMainWindow):
         )
         
         if task.status == "completed" and task.record:
+            logger.debug(f"Task has record, current_index={self._current_task_index}")
             # Load the first completed record
             if self._current_task_index < 0:
                 self._current_task_index = self._tasks.index(task)
+                logger.debug(f"Loading record at index {self._current_task_index}")
                 self._load_current_record()
     
     def _on_progress(self, current: int, total: int) -> None:
@@ -493,11 +513,16 @@ class MainWindow(QMainWindow):
     
     def _load_current_record(self) -> None:
         """Load the current record for display."""
+        logger = logging.getLogger(__name__)
+        logger.debug(f"_load_current_record called: index={self._current_task_index}, tasks={len(self._tasks)}")
+        
         if 0 <= self._current_task_index < len(self._tasks):
             task = self._tasks[self._current_task_index]
+            logger.debug(f"Task status: {task.status}, has_record: {task.record is not None}")
             if task.status == "completed" and task.record:
                 self._current_record = task.record
                 self._current_field_index = 0
+                logger.debug("Calling _display_current_field")
                 self._display_current_field()
                 self._update_ui_for_state("record_ready")
     
@@ -508,17 +533,44 @@ class MainWindow(QMainWindow):
         
         field_name, field_label = FIELD_ORDER[self._current_field_index]
         
-        # Get crop image
+        # Debug: Log crop info
+        logger = logging.getLogger(__name__)
         crops = self._current_record.crops
-        if field_name in crops:
-            crop_image = crops[field_name]
-            if hasattr(crop_image, 'get'):
-                crop_image = crop_image.get(field_name)
-        else:
-            crop_image = None
+        logger.debug(f"Field: {field_name}, Crops type: {type(crops)}")
+        if isinstance(crops, dict):
+            logger.debug(f"Available keys: {list(crops.keys())}")
         
-        # Update viewer
-        self._image_viewer.set_image(crop_image, field_label)
+        # Get crop image from record
+        crop_region = None
+        
+        # Handle both dict and object formats
+        if isinstance(crops, dict):
+            crop_region = crops.get(field_name)
+            logger.debug(f"Got crop for {field_name}: {type(crop_region)}")
+        elif hasattr(crops, 'get'):
+            # It's a CropResult object
+            crop_region = crops.get(field_name)
+        
+        # Extract the actual image from CropRegion
+        crop_image = None
+        if crop_region is not None:
+            if hasattr(crop_region, 'image'):
+                # It's a CropRegion object
+                crop_image = crop_region.image
+                logger.debug(f"Extracted image: {type(crop_image)}, shape={getattr(crop_image, 'shape', 'N/A')}")
+            else:
+                # It's already a raw image
+                crop_image = crop_region
+        
+        # If no crop found, show a placeholder message
+        if crop_image is None or (hasattr(crop_image, 'size') and crop_image.size == 0):
+            # Show "No crop available" in viewer
+            self._image_viewer.set_image(None, f"{field_label} (No crop)")
+            self._status_bar.showMessage(f"No crop region for {field_name}")
+        else:
+            # Update viewer with crop image
+            self._image_viewer.set_image(crop_image, field_label)
+            self._status_bar.showMessage(f"Displaying {field_name}")
         
         # Update status panel
         self._status_panel.update_current_field(field_label)

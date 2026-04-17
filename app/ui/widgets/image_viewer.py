@@ -108,6 +108,11 @@ class ImageViewer(QWidget):
             image: numpy array (BGR or grayscale) or None
             field_name: Name of the field being displayed
         """
+        import logging
+        logger = logging.getLogger(__name__)
+        
+        logger.debug(f"set_image called: field={field_name}, image={'None' if image is None else f'shape={image.shape}'}")
+        
         self._current_field = field_name
         self._current_image = image
         
@@ -115,6 +120,7 @@ class ImageViewer(QWidget):
         self._field_label.setText(field_name or "No Image")
         
         if image is None or image.size == 0:
+            logger.debug("Image is None or empty, showing placeholder")
             self._image_label.setText("No Image")
             self._image_label.setPixmap(QPixmap())
             return
@@ -123,6 +129,7 @@ class ImageViewer(QWidget):
         pixmap = self._numpy_to_pixmap(image)
         
         if pixmap:
+            logger.debug(f"Got pixmap: {pixmap.width()}x{pixmap.height()}")
             # Apply zoom
             scaled_size = QSize(
                 int(pixmap.width() * self._zoom_level),
@@ -135,7 +142,9 @@ class ImageViewer(QWidget):
             )
             self._image_label.setPixmap(scaled_pixmap)
             self._image_label.resize(scaled_size)
+            logger.debug(f"Set pixmap to label: {scaled_size}")
         else:
+            logger.warning("Pixmap conversion failed!")
             self._image_label.setText("Conversion Error")
     
     def _numpy_to_pixmap(self, image: np.ndarray) -> Optional[QPixmap]:
@@ -148,21 +157,32 @@ class ImageViewer(QWidget):
         Returns:
             QPixmap or None
         """
+        import logging
+        logger = logging.getLogger(__name__)
+        
         try:
+            logger.debug(f"Converting image: shape={image.shape}, dtype={image.dtype}")
+            
             # Handle grayscale
             if len(image.shape) == 2:
                 h, w = image.shape
                 bytes_per_line = w
-                q_image = QImage(image.data, w, h, bytes_per_line, QImage.Format_Grayscale8)
+                # Use .copy() to ensure data persists after numpy array is freed
+                q_image = QImage(image.copy().data, w, h, bytes_per_line, QImage.Format_Grayscale8)
             else:
                 # Handle BGR (OpenCV default)
                 h, w, ch = image.shape
                 bytes_per_line = w * ch
                 # Convert BGR to RGB
                 rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-                q_image = QImage(rgb_image.data, w, h, bytes_per_line, QImage.Format_RGB888)
+                # Use .copy() to ensure data persists
+                q_image = QImage(rgb_image.copy().data, w, h, bytes_per_line, QImage.Format_RGB888)
             
-            return QPixmap.fromImage(q_image)
+            logger.debug(f"QImage created: {q_image.width()}x{q_image.height()}")
+            
+            pixmap = QPixmap.fromImage(q_image)
+            logger.debug(f"QPixmap created: {pixmap.width()}x{pixmap.height()}")
+            return pixmap
             
         except Exception as e:
             print(f"Image conversion error: {e}")

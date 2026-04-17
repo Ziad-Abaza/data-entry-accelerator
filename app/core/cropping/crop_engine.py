@@ -48,26 +48,26 @@ class CropConfig:
     debug_output_dir: Optional[Path] = None
 
 
-# Default crop coordinates (assuming normalized 2000px height)
+# Default crop coordinates (adjusted for ~1152px height images)
 # Format: (x1, y1, x2, y2)
 DEFAULT_CROP_BOXES: Dict[str, Tuple[int, int, int, int]] = {
-    # Identity fields
-    "student_name": (50, 50, 450, 120),    # Name field
-    "academic_id": (500, 50, 800, 120),    # ID field
+    # Identity fields - scaled for 1152px height
+    "student_name": (30, 30, 250, 70),     # Name field
+    "academic_id": (280, 30, 450, 70),     # ID field
     
-    # Open-ended question answers
-    "q2": (50, 800, 650, 1000),            # Q2 answer area
-    "q3": (50, 1050, 650, 1250),           # Q3 answer area
-    "q4": (50, 1300, 650, 1500),           # Q4 answer area
+    # Open-ended question answers - scaled for 1152px height
+    "q2": (30, 460, 380, 580),             # Q2 answer area
+    "q3": (30, 610, 380, 730),             # Q3 answer area  
+    "q4": (30, 760, 380, 880),             # Q4 answer area
 }
 
 # Alternative coordinates for different templates
 ALT_CROP_BOXES: Dict[str, Tuple[int, int, int, int]] = {
-    "student_name": (100, 60, 500, 140),
-    "academic_id": (600, 60, 900, 140),
-    "q2": (100, 850, 700, 1050),
-    "q3": (100, 1100, 700, 1300),
-    "q4": (100, 1350, 700, 1550),
+    "student_name": (50, 35, 280, 80),
+    "academic_id": (320, 35, 480, 80),
+    "q2": (50, 490, 400, 610),
+    "q3": (50, 640, 400, 760),
+    "q4": (50, 790, 400, 910),
 }
 
 

@@ -39,7 +39,7 @@ class OCRConfig:
     oem_mode: int = 3  # OCR engine mode (default + LSTM)
     whitelist_chars: str = "0123456789"  # For academic ID
     language: str = "eng"
-    confidence_threshold: float = 60.0
+    confidence_threshold: float = 5.0  # Lowered from 60.0 for better valid results
 
 
 @dataclass
