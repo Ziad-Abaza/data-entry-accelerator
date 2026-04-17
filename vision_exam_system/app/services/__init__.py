@@ -15,7 +15,9 @@ from app.core import CVProcessor, ImageLoader
 from app.models import (
     ExamRecord, ProcessingResult, PipelineStats, RecordStatus, ConfidenceLevel
 )
-from config import get_config
+from app.services.orchestrator import Orchestrator, UIPayload, ValidationResult, FieldInfo, FieldType
+from app.services.session_manager import SessionManager
+from app.services.export_engine import ExportEngine, ExportValidationError
 
 logger = logging.getLogger(__name__)
 
