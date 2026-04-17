@@ -1,0 +1,59 @@
+# Project Specification: Vision-Accelerated Exam Data Entry System
+
+## 1. Core Philosophy (Concept)
+The system is an **Automated Image Processing Pipeline** designed to transform static exam papers into structured digital data. It shifts the human role from a "Data Entry Clerk" to a "Verifier/Reviewer." The primary goal is to maximize throughput (500% efficiency increase) by eliminating manual navigation and minimizing cognitive load through automated visual focus.
+
+---
+
+## 2. Technical Pipeline (Architecture)
+
+### Phase A: Image Pre-processing (Robustness Layer)
+To handle real-world mobile photography issues:
+* **Auto-Orientation (Reference-Based):** Detect "Anchor Points" (e.g., University Logo or MCQ Grid border) using `OpenCV Template Matching`. If the anchor is detected in the bottom half, apply a **180-degree rotation**.
+* **Deskewing:** Calculate the angle of text lines or grid borders; apply an affine transformation to correct rotation/tilt.
+* **Adaptive Scaling:** Resize all input images to a "Master Template" resolution (e.g., 2000px height) to ensure fixed-coordinate cropping remains accurate.
+
+### Phase B: Feature Extraction (Intelligent Layer)
+* **OMR (Optical Mark Recognition):** For MCQ sections, the system must perform **Pixel Density Analysis**. Instead of character recognition, it counts black pixels in pre-defined (A, B, C, D) coordinate boxes. The box with the highest density is flagged as the selected answer.
+* **Handwritten OCR:** Use `PyTesseract` (or similar) on the "Academic ID" field to extract numerical strings.
+* **Dynamic Cropping:** For open-ended questions (Q2, Q3, Q4), the system must generate "Image Snips" (crops) of the specific answer area to be displayed in the UI for rapid human verification.
+
+---
+
+## 3. UI/UX Design Requirements (The Dashboard)
+
+### Section 1: Scanning Pane (Queue Management)
+* **Status Indicators:**
+    * `GREEN`: High-confidence OMR/OCR extraction; ready for quick approval.
+    * `YELLOW`: Ambiguous OMR (e.g., multiple marks or low ink) or OCR failure; requires manual focus.
+
+### Section 2: Turbo-Input View (Visual Focus)
+* **Synchronized Viewport:** Display a high-zoom crop of the *current* field (e.g., only the Name area).
+* **Single-Key Mapping:** For MCQs, keys `A, B, C, D` should record the value and auto-advance to the next question snip without requiring `Enter`.
+
+### Section 3: Live Data Table
+* A real-time spreadsheet view at the bottom that populates as rows are completed, allowing for immediate context checking.
+
+---
+
+## 4. Validation & Error Prevention (Guardrails)
+* **Primary Key Check:** Alert immediately if a duplicate "Academic ID" is detected within the current session.
+* **Null-Value Protection:** Prevent record submission if any MCQ field has 0% pixel density (unanswered question).
+* **Cross-Verification UI:** Display the "Student Name" image snip directly adjacent to the OCR-processed "ID Number" to ensure the link between identity and data is intact.
+
+---
+
+## 5. Technical Stack (Implementation)
+* **Language:** Python 3.x
+* **Computer Vision:** `OpenCV` (Core processing, rotation, OMR).
+* **OCR Engine:** `PyTesseract` (Handwritten digit extraction).
+* **Data Handling:** `Pandas` (Structuring data and exporting to `.xlsx`/`.csv`).
+* **GUI Framework:** `PyQt6` or `PySide6` (For high-performance image rendering and keyboard event handling).
+
+---
+
+## 6. Output Schema (Excel Structure)
+
+| ID | Student Name | Academic ID | Q1_1 | Q1_2 | ... | Q1_30 | Q2_Text | Q3_Text |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | [OCR String] | [OCR Number] | [OMR] | [OMR] | ... | [OMR] | [Manual/OCR] | [Manual/OCR] |
