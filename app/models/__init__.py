@@ -156,7 +156,7 @@ class ExamRecord:
         Returns:
             Dictionary suitable for DataFrame export
         """
-        mcq_dict = {f"Q{i+1}": ans.selected_option or "" for i, ans in enumerate(self.mcq_answers)}
+        mcq_dict = {f"Q{i+1}": ans.selected_answer or "" for i, ans in enumerate(self.mcq_answers)}
         
         return {
             "Student Name": self.student_name,
