@@ -50,7 +50,7 @@ FIELD_ORDER = [
 @dataclass
 class ProcessingTask:
     """Represents a single image processing task."""
-    image_path: Path
+    path: Path
     status: str = "pending"  # pending, processing, completed, failed
     record: Optional[ExamRecord] = None
     error: Optional[str] = None
@@ -92,10 +92,10 @@ class ProcessingWorker(QThread):
             try:
                 # Load image
                 import cv2
-                image = cv2.imread(str(task.image_path))
+                image = cv2.imread(str(task.path))
                 
                 if image is None:
-                    raise ValueError(f"Failed to load image: {task.image_path}")
+                    raise ValueError(f"Failed to load image: {task.path}")
                 
                 # Run pipeline
                 # 1. Preprocess
@@ -115,7 +115,7 @@ class ProcessingWorker(QThread):
                     student_name="",  # Will be filled from UI
                     academic_id=ocr_result.text,
                     mcq_answers=omr_result.question_results,
-                    source_image_path=str(task.image_path),
+                    source_image_path=str(task.path),
                     id_confidence=ocr_result.confidence,
                     crops=crops.to_dict()
                 )
@@ -138,7 +138,7 @@ class ProcessingWorker(QThread):
             except Exception as e:
                 task.status = "failed"
                 task.error = str(e)
-                self.error.emit(str(task.image_path), str(e))
+                self.error.emit(str(task.path), str(e))
                 self.finished.emit(task)
     
     def stop(self) -> None:

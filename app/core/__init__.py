@@ -22,7 +22,7 @@ import app.core.cropping
 from app.models import (
     OMRResult as ModelOMRResult, OCRResult as ModelOCRResult, CropRegion, ExamRecord, ProcessingResult
 )
-from app.core.preprocessing import ImagePreprocessor as PreprocessorModule
+from app.core.preprocessing import ImagePreprocessor as PreprocessorModule, PreprocessingConfig
 from app.core.omr import OMREngine, OMRConfig, DEFAULT_TEMPLATE
 from app.core.ocr import OCREngine, OCRConfig, ACADEMIC_ID_BOX
 from app.core.cropping import CropEngine, CropConfig, DEFAULT_CROP_BOXES
@@ -121,8 +121,7 @@ class ImagePreprocessor:
         # Create preprocessing config from global settings
         if config is None:
             config = PreprocessingConfig(
-                master_height=image_config.master_height,
-                template_path=image_config.template_dir / "anchor_template.png" if image_config.template_dir else None
+                master_height=image_config.master_height
             )
         
         # Use the production preprocessing module

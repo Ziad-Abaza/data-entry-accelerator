@@ -1,0 +1,36 @@
+2026-04-17 17:46:21,785 | INFO     | __main__ | ============================================================
+2026-04-17 17:46:21,786 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:46:21,786 | INFO     | __main__ | ============================================================
+2026-04-17 17:46:51,590 | INFO     | __main__ | ============================================================
+2026-04-17 17:46:51,590 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:46:51,590 | INFO     | __main__ | ============================================================
+2026-04-17 17:47:39,134 | INFO     | __main__ | ============================================================
+2026-04-17 17:47:39,135 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:47:39,135 | INFO     | __main__ | ============================================================
+2026-04-17 17:47:39,400 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:47:39,401 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:47:39,401 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:49:00,848 | INFO     | __main__ | ============================================================
+2026-04-17 17:49:00,848 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:49:00,848 | INFO     | __main__ | ============================================================
+2026-04-17 17:49:01,097 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:49:01,098 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:49:01,098 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:49:15,585 | INFO     | __main__ | ============================================================
+2026-04-17 17:49:15,585 | INFO     | __main__ | Vision-Accelerated Exam Data Entry System
+2026-04-17 17:49:15,587 | INFO     | __main__ | ============================================================
+2026-04-17 17:49:15,818 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:49:15,819 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:49:15,819 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:49:22,742 | INFO     | app.core.omr.omr_engine | OMR Engine initialized: 30 questions
+2026-04-17 17:49:22,743 | INFO     | app.core.ocr.ocr_engine | OCR Engine initialized: expected_length=8
+2026-04-17 17:49:22,743 | INFO     | app.core.cropping.crop_engine | Crop Engine initialized: 5 regions
+2026-04-17 17:49:22,763 | INFO     | app.core.preprocessing.preprocessor | Starting preprocessing: 864x1152
+2026-04-17 17:49:22,913 | INFO     | app.core.preprocessing.preprocessor | Preprocessing complete in 0.151s
+2026-04-17 17:49:22,913 | INFO     | app.core.omr.omr_engine | Starting OMR extraction for 30 questions
+2026-04-17 17:49:22,919 | INFO     | app.core.omr.omr_engine | OMR extraction complete: 9 OK, 21 ambiguous, 0 empty in 0.005s
+2026-04-17 17:49:22,919 | INFO     | app.core.ocr.ocr_engine | Starting Academic ID extraction
+2026-04-17 17:49:23,288 | ERROR    | app.core.ocr.ocr_engine | OCR extraction failed: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-17 17:49:23,288 | INFO     | app.core.ocr.ocr_engine | Academic ID extraction: '' (confidence: 0.00, valid: False) in 0.369s
+2026-04-17 17:49:23,288 | INFO     | app.core.cropping.crop_engine | Starting crop extraction for 5 regions
+2026-04-17 17:49:23,293 | INFO     | app.core.cropping.crop_engine | Crop extraction complete: 5 successful, 0 failed in 0.005s
