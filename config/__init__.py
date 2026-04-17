@@ -34,7 +34,7 @@ class OMRConfig:
 @dataclass
 class OCRConfig:
     """Optical Character Recognition configuration."""
-    tesseract_path: Optional[str] = None
+    tesseract_path: Optional[str] = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
     psm_mode: int = 6  # Page segmentation mode (single uniform block)
     oem_mode: int = 3  # OCR engine mode (default + LSTM)
     whitelist_chars: str = "0123456789"  # For academic ID
