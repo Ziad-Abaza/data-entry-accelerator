@@ -1,9 +1,3 @@
----
-noteId: "251180303a7311f194315fa64def32b1"
-tags: []
-
----
-
 # Vision-Accelerated Exam Data Entry System
 
 A production-grade Python application that processes exam sheet images into structured data using OpenCV, OCR, and OMR techniques.
