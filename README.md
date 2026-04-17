@@ -1,3 +1,9 @@
+---
+noteId: "251180303a7311f194315fa64def32b1"
+tags: []
+
+---
+
 # Vision-Accelerated Exam Data Entry System
 
 A production-grade Python application that processes exam sheet images into structured data using OpenCV, OCR, and OMR techniques.
@@ -25,7 +31,7 @@ A production-grade Python application that processes exam sheet images into stru
 ### Step 1: Clone or Navigate to Project
 
 ```powershell
-cd "D:\coding\projects\AI\OCR\Data Entry Accelerator\vision_exam_system"
+cd ".\vision_exam_system"
 ```
 
 ### Step 2: Create Virtual Environment
